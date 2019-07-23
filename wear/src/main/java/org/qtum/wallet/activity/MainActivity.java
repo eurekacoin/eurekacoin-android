@@ -1,4 +1,4 @@
-package org.qtum.wallet.activity;
+package com.eurekanetwork.wallet.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,15 +23,15 @@ import com.google.android.gms.wearable.MessageApi;
 import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.Wearable;
 
-import org.qtum.wallet.BuildConfig;
-import org.qtum.wallet.R;
-import org.qtum.wallet.adapter.HistoryAdapter;
-import org.qtum.wallet.entity.HeaderData;
-import org.qtum.wallet.entity.History;
-import org.qtum.wallet.listener.HeaderClickListener;
-import org.qtum.wallet.listener.ItemClickListener;
-import org.qtum.wallet.listtools.CustomScrollingLayoutCallback;
-import org.qtum.wallet.storage.DataStorage;
+import com.eurekanetwork.wallet.BuildConfig;
+import com.eurekanetwork.wallet.R;
+import com.eurekanetwork.wallet.adapter.HistoryAdapter;
+import com.eurekanetwork.wallet.entity.HeaderData;
+import com.eurekanetwork.wallet.entity.History;
+import com.eurekanetwork.wallet.listener.HeaderClickListener;
+import com.eurekanetwork.wallet.listener.ItemClickListener;
+import com.eurekanetwork.wallet.listtools.CustomScrollingLayoutCallback;
+import com.eurekanetwork.wallet.storage.DataStorage;
 
 import java.util.List;
 

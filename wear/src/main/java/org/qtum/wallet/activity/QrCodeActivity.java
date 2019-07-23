@@ -1,4 +1,4 @@
-package org.qtum.wallet.activity;
+package com.eurekanetwork.wallet.activity;
 
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
@@ -16,13 +16,13 @@ import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 
-import org.qtum.wallet.R;
-import org.qtum.wallet.listener.QrCodeListener;
+import com.eurekanetwork.wallet.R;
+import com.eurekanetwork.wallet.listener.QrCodeListener;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static org.qtum.wallet.activity.MainActivity.ADDRESS;
+import static com.eurekanetwork.wallet.activity.MainActivity.ADDRESS;
 
 /**
  * Created by kirillvolkov on 22.11.2017.
@@ -108,7 +108,7 @@ public class QrCodeActivity extends WearableActivity implements QrCodeListener {
         }
 
         public String formatReceiveAddress(String addr) {
-            return String.format("qtum:%s?", addr);
+            return String.format("eurekacoin:%s?", addr);
         }
 
         Bitmap encodeAsBitmap(String str) throws WriterException {

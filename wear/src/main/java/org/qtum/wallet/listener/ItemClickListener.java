@@ -1,4 +1,4 @@
-package org.qtum.wallet.listener;
+package com.eurekanetwork.wallet.listener;
 
 /**
  * Created by kirillvolkov on 22.11.2017.

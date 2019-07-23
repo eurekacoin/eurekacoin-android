@@ -1,4 +1,4 @@
-package org.qtum.wallet.utils;
+package com.eurekanetwork.wallet.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

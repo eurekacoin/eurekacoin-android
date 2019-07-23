@@ -1,18 +1,18 @@
-package org.qtum.wallet.viewholder;
+package com.eurekanetwork.wallet.viewholder;
 
 import android.support.wear.widget.WearableRecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.qtum.wallet.R;
-import org.qtum.wallet.entity.History;
+import com.eurekanetwork.wallet.R;
+import com.eurekanetwork.wallet.entity.History;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import org.qtum.wallet.listener.ItemClickListener;
-import org.qtum.wallet.utils.DateCalculator;
+import com.eurekanetwork.wallet.listener.ItemClickListener;
+import com.eurekanetwork.wallet.utils.DateCalculator;
 
 /**
  * Created by kirillvolkov on 22.11.2017.
@@ -66,9 +66,9 @@ public class HistoryViewHolder extends WearableRecyclerView.ViewHolder {
             mImageViewIcon.setImageResource(R.drawable.red_point);
         }
         if(history.getChangeInBalance() != null) {
-            mTextViewValue.setText(String.format("%s QTUM",history.getChangeInBalance().toString()));
+            mTextViewValue.setText(String.format("%s EUREKACOIN",history.getChangeInBalance().toString()));
         } else {
-            mTextViewValue.setText(String.format("%s QTUM","null"));
+            mTextViewValue.setText(String.format("%s EUREKACOIN","null"));
         }
     }
 }

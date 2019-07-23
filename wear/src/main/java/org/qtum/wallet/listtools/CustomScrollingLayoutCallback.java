@@ -1,4 +1,4 @@
-package org.qtum.wallet.listtools;
+package com.eurekanetwork.wallet.listtools;
 
 import android.support.v7.widget.RecyclerView;
 import android.support.wear.widget.WearableLinearLayoutManager;

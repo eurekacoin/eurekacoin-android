@@ -1,4 +1,4 @@
-package org.qtum.wallet.listener;
+package com.eurekanetwork.wallet.listener;
 
 import android.graphics.Bitmap;
 

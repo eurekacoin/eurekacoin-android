@@ -1,4 +1,4 @@
-package org.qtum.wallet.entity;
+package com.eurekanetwork.wallet.entity;
 
 import java.math.BigDecimal;
 

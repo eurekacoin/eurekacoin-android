@@ -1,6 +1,6 @@
-package org.qtum.wallet.listener;
+package com.eurekanetwork.wallet.listener;
 
-import org.qtum.wallet.entity.HeaderData;
+import com.eurekanetwork.wallet.entity.HeaderData;
 
 /**
  * Created by kirillvolkov on 22.11.2017.

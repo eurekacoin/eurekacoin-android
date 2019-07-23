@@ -1,4 +1,4 @@
-package org.qtum.wallet.entity;
+package com.eurekanetwork.wallet.entity;
 
 /**
  * Created by kirillvolkov on 22.11.2017.

@@ -1,4 +1,4 @@
-package org.qtum.wallet.adapter;
+package com.eurekanetwork.wallet.adapter;
 
 
 import android.support.v7.widget.RecyclerView;
@@ -6,14 +6,14 @@ import android.support.wear.widget.WearableRecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import org.qtum.wallet.R;
-import org.qtum.wallet.entity.HeaderData;
-import org.qtum.wallet.entity.History;
-import org.qtum.wallet.listener.HeaderClickListener;
-import org.qtum.wallet.listener.ItemClickListener;
-import org.qtum.wallet.storage.DataStorage;
-import org.qtum.wallet.viewholder.HeaderViewHolder;
-import org.qtum.wallet.viewholder.HistoryViewHolder;
+import com.eurekanetwork.wallet.R;
+import com.eurekanetwork.wallet.entity.HeaderData;
+import com.eurekanetwork.wallet.entity.History;
+import com.eurekanetwork.wallet.listener.HeaderClickListener;
+import com.eurekanetwork.wallet.listener.ItemClickListener;
+import com.eurekanetwork.wallet.storage.DataStorage;
+import com.eurekanetwork.wallet.viewholder.HeaderViewHolder;
+import com.eurekanetwork.wallet.viewholder.HistoryViewHolder;
 
 import java.util.List;
 

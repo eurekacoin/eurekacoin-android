@@ -1,4 +1,4 @@
-package org.qtum.wallet.storage;
+package com.eurekanetwork.wallet.storage;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,14 +6,14 @@ import android.content.SharedPreferences;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import org.qtum.wallet.entity.HeaderData;
-import org.qtum.wallet.entity.History;
+import com.eurekanetwork.wallet.entity.HeaderData;
+import com.eurekanetwork.wallet.entity.History;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.qtum.wallet.entity.HeaderData.INITIAL_BALANCE;
+import static com.eurekanetwork.wallet.entity.HeaderData.INITIAL_BALANCE;
 
 /**
  * Created by kirillvolkov on 22.11.2017.
@@ -21,7 +21,7 @@ import static org.qtum.wallet.entity.HeaderData.INITIAL_BALANCE;
 
 public class DataStorage {
 
-    private static final String STORAGE = "QTUM_STORAGE";
+    private static final String STORAGE = "EUREKACOIN_STORAGE";
     private static final String LAST_HISTORY = "LAST_HISTORY";
 
     private static final String BALANCE = "LAST_BALANCE";

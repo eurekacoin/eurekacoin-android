@@ -1,12 +1,12 @@
-package org.qtum.wallet.viewholder;
+package com.eurekanetwork.wallet.viewholder;
 
 import android.support.wear.widget.WearableRecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
-import org.qtum.wallet.R;
-import org.qtum.wallet.entity.HeaderData;
-import org.qtum.wallet.listener.HeaderClickListener;
+import com.eurekanetwork.wallet.R;
+import com.eurekanetwork.wallet.entity.HeaderData;
+import com.eurekanetwork.wallet.listener.HeaderClickListener;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
