@@ -17,7 +17,7 @@ public class NewsInteractorImpl implements NewsInteractor {
 
     private WeakReference<Context> mContext;
     private SubscriptionList mSubscriptionList = new SubscriptionList();
-    private final String MEDIUM_EUREKACOIN_CHANEL = "@eurekacoin";
+    private final String MEDIUM_EUREKACOIN_CHANEL = "@eurekanetwork";
 
     public NewsInteractorImpl(Context context) {
         mContext = new WeakReference<>(context);
